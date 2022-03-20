@@ -1,1 +1,1 @@
-## ORACLE CSSCAN(Database Character Set Scan utility) result in US7ASCII Database
+### ORACLE CSSCAN(Database Character Set Scanner utility) result in US7ASCII Database
