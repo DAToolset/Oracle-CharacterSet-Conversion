@@ -1,0 +1,232 @@
+Database Scan Summary Report
+
+Time Started  : 2014-05-07 19:41:34
+Time Completed: 2014-05-07 19:42:28
+
+Process ID         Time Started       Time Completed
+---------- -------------------- --------------------
+         1  2014-05-07 19:41:48  2014-05-07 19:42:27
+---------- -------------------- --------------------
+
+[Database Size]
+
+Tablespace                           Used            Free           Total       Expansion
+------------------------- --------------- --------------- --------------- ---------------
+SYSTEM                            577.81M         122.19M         700.00M           2.25M
+SYSAUX                            354.56M         245.44M         600.00M          13.09M
+UNDOTBS1                           14.75M         455.25M         470.00M            .00K
+TEMP                                 .00K            .00K            .00K            .00K
+USERS                               1.81M           3.19M           5.00M         158.00K
+------------------------- --------------- --------------- --------------- ---------------
+Total                             948.94M         826.06M       1,775.00M          15.49M
+
+The size of the largest CLOB is 1625114 bytes
+
+[Database Scan Parameters]
+
+Parameter                      Value                                           
+------------------------------ ------------------------------------------------
+CSSCAN Version                 v2.1                                            
+Instance Name                  oraus7                                          
+Database Version               11.2.0.1.0                                      
+Scan type                      Full database                                   
+Scan CHAR data?                YES                                             
+Database character set         US7ASCII                                        
+FROMCHAR                       US7ASCII                                        
+TOCHAR                         AL32UTF8                                        
+Scan NCHAR data?               NO                                              
+Array fetch buffer size        1024000                                         
+Number of processes            1                                               
+Capture convertible data?      NO                                              
+------------------------------ ------------------------------------------------
+
+[Scan Summary]
+
+Some character type data in the data dictionary are not convertible to the new character set
+Some character type application data are not convertible to the new character set
+
+[Data Dictionary Conversion Summary]
+
+Data Dictionary Tables:
+
+Datatype                    Changeless      Convertible       Truncation            Lossy
+--------------------- ---------------- ---------------- ---------------- ----------------
+VARCHAR2                     2,686,869                0                0               11
+CHAR                             2,834                0                0                0
+LONG                           189,691                0                0                0
+CLOB                            45,948            2,244                0               32
+VARRAY                          39,205                0                0                0
+--------------------- ---------------- ---------------- ---------------- ----------------
+Total                        2,964,547            2,244                0               43
+Total in percentage             99.923%           0.076%           0.000%           0.001%
+
+The data dictionary can not be safely migrated using the CSALTER script
+
+XML CSX Dictionary Tables:
+
+Datatype                    Changeless      Convertible       Truncation            Lossy
+--------------------- ---------------- ---------------- ---------------- ----------------
+VARCHAR2                           493                0                0                0
+CHAR                                 0                0                0                0
+LONG                                 0                0                0                0
+CLOB                                 0                0                0                0
+VARRAY                               0                0                0                0
+--------------------- ---------------- ---------------- ---------------- ----------------
+Total                              493                0                0                0
+Total in percentage            100.000%           0.000%           0.000%           0.000%
+
+[Application Data Conversion Summary]
+
+Datatype                    Changeless      Convertible       Truncation            Lossy
+--------------------- ---------------- ---------------- ---------------- ----------------
+VARCHAR2                     2,580,031                0            4,507           14,855
+CHAR                                 0                0                0                0
+LONG                                 0                0                0                0
+CLOB                            29,628            8,291                0                1
+VARRAY                               0                0                0                0
+--------------------- ---------------- ---------------- ---------------- ----------------
+Total                        2,609,659            8,291            4,507           14,856
+Total in percentage             99.121%           0.315%           0.171%           0.564%
+
+[Distribution of Convertible, Truncated and Lossy Data by Table]
+
+Data Dictionary Tables:
+
+USER.TABLE                                              Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+MDSYS.SDO_COORD_OP_PARAM_VALS                                   200                0                0
+MDSYS.SDO_STYLES_TABLE                                           78                0                0
+MDSYS.SDO_XML_SCHEMAS                                             3                0                0
+ORDDATA.ORDDCM_CT_PRED_OPRD                                      51                0                0
+ORDDATA.ORDDCM_DOCS                                               9                0                0
+ORDDATA.ORDDCM_MAPPING_DOCS                                       1                0                0
+SYS.COM$                                                          0                0               11
+SYS.METASTYLESHEET                                              178                0                0
+SYS.RULE$                                                         1                0                0
+SYS.SCHEDULER$_EVENT_LOG                                         38                0                0
+SYS.WRH$_SQLTEXT                                                712                0               32
+SYS.WRH$_SQL_PLAN                                               716                0                0
+SYS.WRI$_ADV_DIRECTIVE_META                                       5                0                0
+SYS.WRI$_ADV_OBJECTS                                              5                0                0
+SYS.WRI$_DBU_FEATURE_METADATA                                   188                0                0
+SYS.WRI$_DBU_FEATURE_USAGE                                       10                0                0
+SYS.WRI$_DBU_HWM_METADATA                                        20                0                0
+SYS.WRI$_REPT_FILES                                              27                0                0
+XDB.XDB$DXPTAB                                                    2                0                0
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+XML CSX Dictionary Tables:
+
+USER.TABLE                                              Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+Application Data:
+
+USER.TABLE                                              Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+APEX_030200.WWV_FLOW_BANNER                                      10                0                0
+APEX_030200.WWV_FLOW_BUTTON_TEMPLATES                            12                0                0
+APEX_030200.WWV_FLOW_CUSTOM_AUTH_SETUPS                          19                0                0
+APEX_030200.WWV_FLOW_FLASH_CHART_SERIES                           5                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES                             298                0                0
+APEX_030200.WWV_FLOW_PAGE_GENERIC_ATTR                           44                0                0
+APEX_030200.WWV_FLOW_PAGE_PLUGS                               3,241                0                0
+APEX_030200.WWV_FLOW_PAGE_PLUG_TEMPLATES                        254                0                0
+APEX_030200.WWV_FLOW_PROCESSING                                  45                0                0
+APEX_030200.WWV_FLOW_ROW_TEMPLATES                               66                0                0
+APEX_030200.WWV_FLOW_SHORTCUTS                                   39                0                0
+APEX_030200.WWV_FLOW_STEPS                                    1,797                0                0
+APEX_030200.WWV_FLOW_STEP_PROCESSING                          2,239                0                0
+APEX_030200.WWV_FLOW_TEMPLATES                                  192                0                0
+APEX_030200.WWV_FLOW_WORKSHEETS                                  30                0                0
+LEG.SUB_MON_STAT                                                  0            4,507           14,854
+LEG.Z_TEST                                                        0                0                2
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+[Distribution of Convertible, Truncated and Lossy Data by Column]
+
+Data Dictionary Tables:
+
+USER.TABLE|COLUMN                                       Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+MDSYS.SDO_COORD_OP_PARAM_VALS|PARAM_VALUE_FILE                  200                0                0
+MDSYS.SDO_STYLES_TABLE|DEFINITION                                78                0                0
+MDSYS.SDO_XML_SCHEMAS|XMLSCHEMA                                   3                0                0
+ORDDATA.ORDDCM_CT_PRED_OPRD|SYS_NC00004$                         51                0                0
+ORDDATA.ORDDCM_DOCS|SYS_NC00005$                                  9                0                0
+ORDDATA.ORDDCM_MAPPING_DOCS|SYS_NC00007$                          1                0                0
+SYS.COM$|COMMENT$                                                 0                0               11
+SYS.METASTYLESHEET|STYLESHEET                                   178                0                0
+SYS.RULE$|CONDITION                                               1                0                0
+SYS.SCHEDULER$_EVENT_LOG|ADDITIONAL_INFO                         38                0                0
+SYS.WRH$_SQLTEXT|SQL_TEXT                                       712                0               32
+SYS.WRH$_SQL_PLAN|OTHER_XML                                     716                0                0
+SYS.WRI$_ADV_DIRECTIVE_META|DATA                                  5                0                0
+SYS.WRI$_ADV_OBJECTS|ATTR4                                        5                0                0
+SYS.WRI$_DBU_FEATURE_METADATA|INST_CHK_LOGIC                     21                0                0
+SYS.WRI$_DBU_FEATURE_METADATA|USG_DET_LOGIC                     167                0                0
+SYS.WRI$_DBU_FEATURE_USAGE|FEATURE_INFO                          10                0                0
+SYS.WRI$_DBU_HWM_METADATA|LOGIC                                  20                0                0
+SYS.WRI$_REPT_FILES|SYS_NC00005$                                 27                0                0
+XDB.XDB$DXPTAB|SYS_NC00006$                                       2                0                0
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+XML CSX Dictionary Tables:
+
+USER.TABLE|COLUMN                                       Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+Application Data:
+
+USER.TABLE|COLUMN                                       Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+APEX_030200.WWV_FLOW_BANNER|BANNER                               10                0                0
+APEX_030200.WWV_FLOW_BUTTON_TEMPLATES|TEMPLATE                   12                0                0
+APEX_030200.WWV_FLOW_CUSTOM_AUTH_SETUPS|AUTH_FUNC                 8                0                0
+APEX_030200.WWV_FLOW_CUSTOM_AUTH_SETUPS|PAGE_SENT                10                0                0
+APEX_030200.WWV_FLOW_CUSTOM_AUTH_SETUPS|POST_AUTH                 1                0                0
+APEX_030200.WWV_FLOW_FLASH_CHART_SERIES|SERIES_QU                 5                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES|ITEM_TEMPLATE                20                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES|ITEM_TEMPLATE                20                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES|LIST_TEMPLATE               105                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES|LIST_TEMPLATE               105                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES|SUB_LIST_ITEM                12                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES|SUB_LIST_ITEM                12                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES|SUB_TEMPLATE_                12                0                0
+APEX_030200.WWV_FLOW_LIST_TEMPLATES|SUB_TEMPLATE_                12                0                0
+APEX_030200.WWV_FLOW_PAGE_GENERIC_ATTR|ATTRIBUTE_                44                0                0
+APEX_030200.WWV_FLOW_PAGE_PLUGS|PLUG_SOURCE                   3,241                0                0
+APEX_030200.WWV_FLOW_PAGE_PLUG_TEMPLATES|TEMPLATE               166                0                0
+APEX_030200.WWV_FLOW_PAGE_PLUG_TEMPLATES|TEMPLATE                88                0                0
+APEX_030200.WWV_FLOW_PROCESSING|PROCESS_SQL_CLOB                 45                0                0
+APEX_030200.WWV_FLOW_ROW_TEMPLATES|ROW_TEMPLATE1                 54                0                0
+APEX_030200.WWV_FLOW_ROW_TEMPLATES|ROW_TEMPLATE2                 10                0                0
+APEX_030200.WWV_FLOW_ROW_TEMPLATES|ROW_TEMPLATE3                  2                0                0
+APEX_030200.WWV_FLOW_SHORTCUTS|SHORTCUT                          39                0                0
+APEX_030200.WWV_FLOW_STEPS|HELP_TEXT                          1,514                0                0
+APEX_030200.WWV_FLOW_STEPS|HTML_PAGE_HEADER                     283                0                0
+APEX_030200.WWV_FLOW_STEP_PROCESSING|PROCESS_SQL_             2,239                0                0
+APEX_030200.WWV_FLOW_TEMPLATES|BOX                               64                0                0
+APEX_030200.WWV_FLOW_TEMPLATES|FOOTER_TEMPLATE                   64                0                0
+APEX_030200.WWV_FLOW_TEMPLATES|HEADER_TEMPLATE                   64                0                0
+APEX_030200.WWV_FLOW_WORKSHEETS|SQL_QUERY                        30                0                0
+LEG.SUB_MON_STAT|COMMT                                            0                1                1
+LEG.SUB_MON_STAT|LINE_NUM                                         0            3,238            7,426
+LEG.SUB_MON_STAT|REF_DES                                          0                0                1
+LEG.SUB_MON_STAT|SUB_STA_NM                                       0            1,268            7,426
+LEG.Z_TEST|VAL                                                    0                0                2
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+[Indexes to be Rebuilt]
+
+USER.INDEX on USER.TABLE(COLUMN)                                                         
+-----------------------------------------------------------------------------------------
+APEX_030200.WWV_FLOW_WORKSHEETS_UNQ_IDX on APEX_030200.WWV_FLOW_WORKSHEETS(SYS_NC00078$)
+APEX_030200.WWV_FLOW_WORKSHEETS_UNQ_IDX on APEX_030200.WWV_FLOW_WORKSHEETS(SYS_NC00079$)
+APEX_030200.WWV_FLOW_WORKSHEETS_UNQ_IDX on APEX_030200.WWV_FLOW_WORKSHEETS(SYS_NC00080$)
+APEX_030200.WWV_FLOW_WORKSHEETS_UNQ_IDX on APEX_030200.WWV_FLOW_WORKSHEETS(SYS_NC00081$)
+APEX_030200.WWV_FLOW_WS_UNQ_ALIAS_IDX on APEX_030200.WWV_FLOW_WORKSHEETS(SYS_NC00082$)
+APEX_030200.WWV_FLOW_WS_UNQ_ALIAS_IDX on APEX_030200.WWV_FLOW_WORKSHEETS(ALIAS)
+-----------------------------------------------------------------------------------------
