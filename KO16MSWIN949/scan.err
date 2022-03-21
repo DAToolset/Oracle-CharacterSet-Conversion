@@ -1,0 +1,459 @@
+Database Scan Individual Exception Report
+
+
+[Database Scan Parameters]
+
+Parameter                      Value
+------------------------------ ------------------------------------------------
+CSSCAN Version                 v2.1
+Instance Name                  oramswin949
+Database Version               11.2.0.1.0
+Scan type                      Full database
+Scan CHAR data?                YES
+Database character set         KO16MSWIN949
+FROMCHAR                       KO16MSWIN949
+TOCHAR                         AL32UTF8
+Scan NCHAR data?               NO
+Array fetch buffer size        1024000
+Number of processes            1
+Capture convertible data?      NO
+------------------------------ ------------------------------------------------
+
+[Data Dictionary individual exceptions]
+
+User  : SYS
+Table : SCHEDULER$_PROGRAM
+Column: NLS_ENV
+Type  : VARCHAR2(4000)
+Number of Exceptions         : 0
+Max Post Conversion Data Size: 480
+
+ROWID              Exception Type      Size Cell Data(first 30 bytes)
+------------------ ------------------ ----- ------------------------------
+AAABbGAABAAAC1xAAA convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbGAABAAAC1xAAB convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbGAABAAAC1xAAC convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbGAABAAAC1xAAD convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbGAABAAAC1xAAE convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+------------------ ------------------ ----- ------------------------------
+
+User  : SYS
+Table : ERROR$
+Column: TEXT
+Type  : VARCHAR2(4000)
+Number of Exceptions         : 0
+Max Post Conversion Data Size: 77
+
+ROWID              Exception Type      Size Cell Data(first 30 bytes)
+------------------ ------------------ ----- ------------------------------
+AAAADkAABAAAAYBAAA convertible              PL/SQL: ORA-00942: 테이블 또는
+AAAADkAABAAAAYBAAC convertible              PLS-00201: 'CTX_DDL.DROP_PREFE
+AAAADkAABAAAAYBAAE convertible              PL/SQL: ORA-00942: 테이블 또는
+AAAADkAABAAAAYBAAG convertible              PLS-00201: 'CTX_DDL.DROP_PREFE
+AAAADkAABAAAAYBAAI convertible              PLS-00201: 'CTX_DDL.CREATE_PRE
+AAAADkAABAAAAYBAAK convertible              PLS-00201: 'CTX_DDL.SET_ATTRIB
+AAAADkAABAAAAYBAAM convertible              PLS-00201: 'CTX_DDL.SET_ATTRIB
+AAAADkAABAAAAYBAAO convertible              PLS-00201: 'CTX_DDL.CREATE_PRE
+AAAADkAABAAAAYBAAQ convertible              PLS-00201: 'CTX_DOC.FILTER' 식
+AAAADkAABAAAAYBAAS convertible              PLS-00201: 'CTX_DOC.FILTER' 식
+------------------ ------------------ ----- ------------------------------
+
+User  : SYS
+Table : COM$
+Column: COMMENT$
+Type  : VARCHAR2(4000)
+Number of Exceptions         : 0
+Max Post Conversion Data Size: 381
+
+ROWID              Exception Type      Size Cell Data(first 30 bytes)
+------------------ ------------------ ----- ------------------------------
+AAAACIAABAAARCPABN convertible              사용월
+AAAACIAABAAARCPABO convertible              호선명
+AAAACIAABAAARCPABP convertible              지하철역코드
+AAAACIAABAAARCPABQ convertible              지하철역명
+AAAACIAABAAARCPABR convertible              승차인원수
+AAAACIAABAAARCPABS convertible              하차인원수
+AAAACIAABAAARCPABT convertible              작업일자
+AAAACIAABAAARCPABU convertible              비고
+AAAACIAABAAARCPABV convertible              참조설명
+AAAACIAABAAARCPABW convertible              참조이미지
+AAAACIAABAAARCPABX convertible              지하철역별승하차인원
+------------------ ------------------ ----- ------------------------------
+
+User  : SYS
+Table : SCHEDULER$_JOB
+Column: NLS_ENV
+Type  : VARCHAR2(4000)
+Number of Exceptions         : 0
+Max Post Conversion Data Size: 480
+
+ROWID              Exception Type      Size Cell Data(first 30 bytes)
+------------------ ------------------ ----- ------------------------------
+AAABbKAABAAAC2RAAA convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbKAABAAAC2RAAB convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbKAABAAAC2RAAC convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbKAABAAAC2RAAD convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbKAABAAAC2RAAE convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbKAABAAAC2SAAD convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbKAABAAAC2SAAE convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAABbKAABAAAC2SAAF convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+------------------ ------------------ ----- ------------------------------
+
+User  : SYS
+Table : JOB$
+Column: NLSENV
+Type  : VARCHAR2(4000)
+Number of Exceptions         : 0
+Max Post Conversion Data Size: 187
+
+ROWID              Exception Type      Size Cell Data(first 30 bytes)
+------------------ ------------------ ----- ------------------------------
+AAAAEfAABAAAAfZAAA convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+AAAAEfAABAAAAfZAAB convertible              NLS_LANGUAGE='KOREAN' NLS_TERR
+------------------ ------------------ ----- ------------------------------
+
+
+[Application data individual exceptions]
+
+User  : LEG
+Table : SUB_MON_STAT
+Column: LINE_NUM
+Type  : VARCHAR2(14)
+Number of Exceptions         : 140
+Max Post Conversion Data Size: 20
+
+ROWID              Exception Type      Size Cell Data(first 30 bytes)
+------------------ ------------------ ----- ------------------------------
+AAAQSRAAEAAAAC/ABp exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABq exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABr exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABs exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABt exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABu exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABv exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABw exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABx exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC/ABy exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAB exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAC exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAD exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAE exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAF exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAG exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAH exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAI exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAJ exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC1AAK exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC7ABZ exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC7ABa exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC7ABb exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC7ABc exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC7ABd exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC7ABe exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC7ABf exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAAC7ABg exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABp exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABq exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABr exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABs exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABt exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABu exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABv exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABw exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABx exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACLABy exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACxABn exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACxABo exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACxABp exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACxABq exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACxABr exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACxABs exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACxABt exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACzABE exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACzABF exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAACzABG exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABa exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABb exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABc exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABd exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABe exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABf exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABg exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABh exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABi exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADCABj exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABh exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABi exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABj exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABk exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABl exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABm exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABn exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABo exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABp exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADDABq exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADEAAB exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADEAAC exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABH exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABI exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABJ exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABK exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABL exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABM exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABN exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABO exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABP exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADKABQ exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACC exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACD exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACE exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACF exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACG exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACH exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACI exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACJ exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACK exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADPACL exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB0 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB1 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB2 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB3 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB4 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB5 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB6 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB7 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB8 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADTAB9 exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABY exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABZ exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABa exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABb exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABc exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABd exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABe exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABf exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABg exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADVABh exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABn exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABo exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABp exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABq exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABr exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABs exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABt exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABu exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABv exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADaABw exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABb exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABc exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABd exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABe exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABf exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABg exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABh exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABi exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABj exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADdABk exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAS exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAT exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAU exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAV exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAW exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAX exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAY exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAZ exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAa exceed column size    20 공항철도 1호선
+AAAQSRAAEAAAADjAAb exceed column size    20 공항철도 1호선
+------------------ ------------------ ----- ------------------------------
+
+User  : LEG
+Table : SUB_MON_STAT
+Column: COMMT
+Type  : VARCHAR2(4000)
+Number of Exceptions         : 1
+Max Post Conversion Data Size: 4500
+
+ROWID              Exception Type      Size Cell Data(first 30 bytes)
+------------------ ------------------ ----- ------------------------------
+AAAQSRAAEAAAACNAAA exceed column size  4500 서울역서울역서울역서울역서울역
+------------------ ------------------ ----- ------------------------------
+
+User  : LEG
+Table : SUB_MON_STAT
+Column: SUB_STA_NM
+Type  : VARCHAR2(20)
+Number of Exceptions         : 168
+Max Post Conversion Data Size: 27
+
+ROWID              Exception Type      Size Cell Data(first 30 bytes)
+------------------ ------------------ ----- ------------------------------
+AAAQSRAAEAAAAC+AA8 exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC+AAC exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC+AB/ exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC+ACF exceed column size    21 부천종합운동장
+AAAQSRAAEAAAAC/AA0 exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC/AAR exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAAC/ABs exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC0AAQ exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAAC0AAf exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC0ABg exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC1AA1 exceed column size    21 남동인더스파크
+AAAQSRAAEAAAAC1AAE exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC1AB3 exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAAC2AAB exceed column size    21 구로디지털단지
+AAAQSRAAEAAAAC2ABC exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAAC2ABp exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAAC2ACJ exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC3AA+ exceed column size    21 부천종합운동장
+AAAQSRAAEAAAAC3AA4 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC3AB2 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC3ABo exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAAC5AAM exceed column size    21 남동인더스파크
+AAAQSRAAEAAAAC5ABO exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAAC5ABp exceed column size    21 구로디지털단지
+AAAQSRAAEAAAAC5ACJ exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAAC6AA9 exceed column size    21 남동인더스파크
+AAAQSRAAEAAAAC6AAc exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAAC6AB3 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC7AAk exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC7ABc exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC7ABv exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAAC7ACP exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC8AB/ exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC8ABA exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC8ABG exceed column size    21 부천종합운동장
+AAAQSRAAEAAAAC8ABw exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAAC9AAV exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAAC9ABY exceed column size    21 가산디지털단지
+AAAQSRAAEAAAAC9ABe exceed column size    21 부천종합운동장
+AAAQSRAAEAAAAC9ACI exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAACLAA0 exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAACLABs exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAACMAAL exceed column size    21 남동인더스파크
+AAAQSRAAEAAAACMAB+ exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAACMABO exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACNAAO exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACOAAS exceed column size    21 구로디지털단지
+AAAQSRAAEAAAACOAB6 exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACOABT exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACPAAG exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAACPAB5 exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAACPABJ exceed column size    21 가산디지털단지
+AAAQSRAAEAAAACPABP exceed column size    21 부천종합운동장
+AAAQSRAAEAAAACPACH exceed column size    21 가산디지털단지
+AAAQSRAAEAAAACwAAV exceed column size    21 구로디지털단지
+AAAQSRAAEAAAACwAB9 exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACwABW exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACxAAp exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACxABQ exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACxABn exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAACyAAG exceed column size    21 남동인더스파크
+AAAQSRAAEAAAACyABI exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAACyABj exceed column size    21 구로디지털단지
+AAAQSRAAEAAAACzAAP exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAACzAB5 exceed column size    21 부천종합운동장
+AAAQSRAAEAAAACzABz exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADAAAD exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADAABE exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADAABr exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADAACL exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADBAA6 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADBAB4 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADBABA exceed column size    21 부천종합운동장
+AAAQSRAAEAAAADBABq exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAADCAAl exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADCABd exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADCACO exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADDAAs exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADDABk exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADDACK exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADEAAt exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADEABv exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADEACK exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADFAA6 exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADFAB8 exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADFABh exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADGAAr exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADGABS exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADGABy exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADHAAh exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADHAAn exceed column size    21 부천종합운동장
+AAAQSRAAEAAAADHABR exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAADHABf exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADJAAk exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADJABm exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADJACB exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADKAAS exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADKAB7 exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADKABK exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADLAAr exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADLABG exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADLACH exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADMAA7 exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADMAAb exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADMACD exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAADMACR exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADNAAu exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADNAB2 exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADNABV exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADOAAl exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADOAAr exceed column size    21 부천종합운동장
+AAAQSRAAEAAAADOABV exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAADOABj exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADPABN exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADPACF exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADQAAB exceed column size    21 부천종합운동장
+AAAQSRAAEAAAADQAAm exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADQABB exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADQACC exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADRAA2 exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADRAAW exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADRAB/ exceed column size    21 부천종합운동장
+AAAQSRAAEAAAADRAB5 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADSAAV exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAADSAAk exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADSAB7 exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADTAA+ exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADTAB3 exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADUAA+ exceed column size    21 부천종합운동장
+AAAQSRAAEAAAADUAA4 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADUAAa exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADUAB2 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADUABo exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAADVAAj exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADVABb exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADVACM exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADWAA9 exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADWABY exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADXAAF exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADXAAs exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADXABM exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADXACP exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADZAA/ exceed column size    21 부천종합운동장
+AAAQSRAAEAAAADZAA5 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADZAB3 exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADZABp exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAADaAAw exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADaABq exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADbAAN exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADbAB/ exceed column size    23 흑석(중앙대입구)
+AAAQSRAAEAAAADbABP exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADbABV exceed column size    21 부천종합운동장
+AAAQSRAAEAAAADbACO exceed column size    21 가산디지털단지
+AAAQSRAAEAAAADcAA6 exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADcABw exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADdAAk exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADdABe exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADeAAB exceed column size    21 남동인더스파크
+AAAQSRAAEAAAADeABK exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADeABq exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADfAAC exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADfABD exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADfABq exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADfACK exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADjAAV exceed column size    24 디지털미디어시티
+AAAQSRAAEAAAADjABX exceed column size    27 동대문역사문화공원
+AAAQSRAAEAAAADjABy exceed column size    21 구로디지털단지
+AAAQSRAAEAAAADkAAi exceed column size    27 동대문역사문화공원
+------------------ ------------------ ----- ------------------------------
+

@@ -1,0 +1,150 @@
+Database Scan Summary Report
+
+Time Started  : 2014-05-07 20:21:51
+Time Completed: 2014-05-07 20:22:46
+
+Process ID         Time Started       Time Completed
+---------- -------------------- --------------------
+         1  2014-05-07 20:22:04  2014-05-07 20:22:45
+---------- -------------------- --------------------
+
+[Database Size]
+
+Tablespace                           Used            Free           Total       Expansion
+------------------------- --------------- --------------- --------------- ---------------
+SYSTEM                            563.25M         136.75M         700.00M            .00K
+SYSAUX                            360.19M         239.81M         600.00M           2.00K
+UNDOTBS1                           19.25M         465.75M         485.00M            .00K
+TEMP                                 .00K            .00K            .00K            .00K
+USERS                               1.81M           3.19M           5.00M          39.00K
+------------------------- --------------- --------------- --------------- ---------------
+Total                             944.50M         845.50M       1,790.00M          42.00K
+
+[Database Scan Parameters]
+
+Parameter                      Value                                           
+------------------------------ ------------------------------------------------
+CSSCAN Version                 v2.1                                            
+Instance Name                  oramswin949                                     
+Database Version               11.2.0.1.0                                      
+Scan type                      Full database                                   
+Scan CHAR data?                YES                                             
+Database character set         KO16MSWIN949                                    
+FROMCHAR                       KO16MSWIN949                                    
+TOCHAR                         AL32UTF8                                        
+Scan NCHAR data?               NO                                              
+Array fetch buffer size        1024000                                         
+Number of processes            1                                               
+Capture convertible data?      NO                                              
+------------------------------ ------------------------------------------------
+
+[Scan Summary]
+
+All character type data in the data dictionary are convertible to the new character set
+Some character type application data are not convertible to the new character set
+
+[Data Dictionary Conversion Summary]
+
+Data Dictionary Tables:
+
+Datatype                    Changeless      Convertible       Truncation            Lossy
+--------------------- ---------------- ---------------- ---------------- ----------------
+VARCHAR2                     2,566,115               36                0                0
+CHAR                               354                0                0                0
+LONG                           182,178                0                0                0
+VARRAY                          39,205                0                0                0
+--------------------- ---------------- ---------------- ---------------- ----------------
+Total                        2,787,852               36                0                0
+Total in percentage             99.999%           0.001%           0.000%           0.000%
+
+The data dictionary can not be safely migrated using the CSALTER script
+
+XML CSX Dictionary Tables:
+
+Datatype                    Changeless      Convertible       Truncation            Lossy
+--------------------- ---------------- ---------------- ---------------- ----------------
+VARCHAR2                           493                0                0                0
+CHAR                                 0                0                0                0
+LONG                                 0                0                0                0
+VARRAY                               0                0                0                0
+--------------------- ---------------- ---------------- ---------------- ----------------
+Total                              493                0                0                0
+Total in percentage            100.000%           0.000%           0.000%           0.000%
+
+[Application Data Conversion Summary]
+
+Datatype                    Changeless      Convertible       Truncation            Lossy
+--------------------- ---------------- ---------------- ---------------- ----------------
+VARCHAR2                     2,579,942           14,635              309                0
+CHAR                                 0                0                0                0
+LONG                                 0                0                0                0
+VARRAY                               0                0                0                0
+--------------------- ---------------- ---------------- ---------------- ----------------
+Total                        2,579,942           14,635              309                0
+Total in percentage             99.424%           0.564%           0.012%           0.000%
+
+[Distribution of Convertible, Truncated and Lossy Data by Table]
+
+Data Dictionary Tables:
+
+USER.TABLE                                              Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+SYS.COM$                                                         11                0                0
+SYS.ERROR$                                                       10                0                0
+SYS.JOB$                                                          2                0                0
+SYS.SCHEDULER$_JOB                                                8                0                0
+SYS.SCHEDULER$_PROGRAM                                            5                0                0
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+XML CSX Dictionary Tables:
+
+USER.TABLE                                              Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+Application Data:
+
+USER.TABLE                                              Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+APEX_030200.WWV_FLOW_UPGRADE_PROGRESS                            89                0                0
+LEG.SUB_MON_STAT                                             14,544              309                0
+LEG.Z_TEST                                                        2                0                0
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+[Distribution of Convertible, Truncated and Lossy Data by Column]
+
+Data Dictionary Tables:
+
+USER.TABLE|COLUMN                                       Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+SYS.COM$|COMMENT$                                                11                0                0
+SYS.ERROR$|TEXT                                                  10                0                0
+SYS.JOB$|NLSENV                                                   2                0                0
+SYS.SCHEDULER$_JOB|NLS_ENV                                        8                0                0
+SYS.SCHEDULER$_PROGRAM|NLS_ENV                                    5                0                0
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+XML CSX Dictionary Tables:
+
+USER.TABLE|COLUMN                                       Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+Application Data:
+
+USER.TABLE|COLUMN                                       Convertible       Truncation            Lossy
+-------------------------------------------------- ---------------- ---------------- ----------------
+APEX_030200.WWV_FLOW_UPGRADE_PROGRESS|UPGRADE_ERR                89                0                0
+LEG.SUB_MON_STAT|COMMT                                            0                1                0
+LEG.SUB_MON_STAT|LINE_NUM                                     7,286              140                0
+LEG.SUB_MON_STAT|SUB_STA_NM                                   7,258              168                0
+LEG.Z_TEST|VAL                                                    2                0                0
+-------------------------------------------------- ---------------- ---------------- ----------------
+
+[Indexes to be Rebuilt]
+
+USER.INDEX on USER.TABLE(COLUMN)                                                         
+-----------------------------------------------------------------------------------------
+SYS.I_SCHEDULER_JOB4 on SYS.SCHEDULER$_JOB(SYS_NC00056$)
+SYS.I_SCHEDULER_JOB1 on SYS.SCHEDULER$_JOB(SYS_NC00055$)
+-----------------------------------------------------------------------------------------
